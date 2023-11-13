@@ -1,0 +1,219 @@
+created:
+    - app/Http/Controllers/UserController.php
+    - app/Http/Controllers/RoleController.php
+    - app/Http/Controllers/SmsQueueController.php
+    - app/Http/Controllers/LocationController.php
+    - app/Http/Controllers/CompanyController.php
+    - app/Http/Controllers/StoryController.php
+    - app/Http/Controllers/SeoController.php
+    - app/Http/Controllers/SectionController.php
+    - app/Http/Controllers/ServiceController.php
+    - app/Http/Controllers/IngredientCategoryController.php
+    - app/Http/Controllers/IngredientController.php
+    - app/Http/Controllers/ProductCategoryController.php
+    - app/Http/Controllers/ProductOptionController.php
+    - app/Http/Controllers/ProductController.php
+    - app/Http/Controllers/FavoriteController.php
+    - app/Http/Controllers/ReviewController.php
+    - app/Http/Controllers/OrderController.php
+    - app/Http/Controllers/PaymentHistoryController.php
+    - app/Http/Controllers/MoneyTransferController.php
+    - database/factories/UserFactory.php
+    - database/factories/RoleFactory.php
+    - database/factories/SmsQueueFactory.php
+    - database/factories/LocationFactory.php
+    - database/factories/CompanyFactory.php
+    - database/factories/StoryFactory.php
+    - database/factories/SeoFactory.php
+    - database/factories/SectionFactory.php
+    - database/factories/ServiceFactory.php
+    - database/factories/IngredientCategoryFactory.php
+    - database/factories/IngredientFactory.php
+    - database/factories/ProductCategoryFactory.php
+    - database/factories/ProductOptionFactory.php
+    - database/factories/ProductFactory.php
+    - database/factories/FavoriteFactory.php
+    - database/factories/ReviewFactory.php
+    - database/factories/OrderFactory.php
+    - database/factories/PaymentHistoryFactory.php
+    - database/factories/MoneyTransferFactory.php
+    - database/migrations/2023_07_03_163828_create_users_table.php
+    - database/migrations/2023_07_03_163829_create_roles_table.php
+    - database/migrations/2023_07_03_163830_create_sms_queues_table.php
+    - database/migrations/2023_07_03_163831_create_locations_table.php
+    - database/migrations/2023_07_03_163832_create_companies_table.php
+    - database/migrations/2023_07_03_163833_create_stories_table.php
+    - database/migrations/2023_07_03_163834_create_seos_table.php
+    - database/migrations/2023_07_03_163835_create_sections_table.php
+    - database/migrations/2023_07_03_163836_create_services_table.php
+    - database/migrations/2023_07_03_163837_create_ingredient_categories_table.php
+    - database/migrations/2023_07_03_163838_create_ingredients_table.php
+    - database/migrations/2023_07_03_163839_create_product_categories_table.php
+    - database/migrations/2023_07_03_163840_create_product_options_table.php
+    - database/migrations/2023_07_03_163841_create_products_table.php
+    - database/migrations/2023_07_03_163842_create_favorites_table.php
+    - database/migrations/2023_07_03_163843_create_reviews_table.php
+    - database/migrations/2023_07_03_163844_create_orders_table.php
+    - database/migrations/2023_07_03_163845_create_payment_histories_table.php
+    - database/migrations/2023_07_03_163846_create_money_transfers_table.php
+    - database/migrations/2023_07_03_163847_create_company_section_table.php
+    - database/migrations/2023_07_03_163848_create_company_seo_table.php
+    - database/migrations/2023_07_03_163849_create_company_service_table.php
+    - database/migrations/2023_07_03_163850_create_company_story_table.php
+    - database/migrations/2023_07_03_163851_create_company_order_table.php
+    - database/migrations/2023_07_03_163852_create_product_product_category_table.php
+    - app/Models/User.php
+    - app/Models/Role.php
+    - app/Models/SmsQueue.php
+    - app/Models/Location.php
+    - app/Models/Company.php
+    - app/Models/Story.php
+    - app/Models/Seo.php
+    - app/Models/Section.php
+    - app/Models/Service.php
+    - app/Models/IngredientCategory.php
+    - app/Models/Ingredient.php
+    - app/Models/ProductCategory.php
+    - app/Models/ProductOption.php
+    - app/Models/Product.php
+    - app/Models/Favorite.php
+    - app/Models/Review.php
+    - app/Models/Order.php
+    - app/Models/PaymentHistory.php
+    - app/Models/MoneyTransfer.php
+    - database/seeders/UserSeeder.php
+    - database/seeders/RoleSeeder.php
+    - database/seeders/SmsQueueSeeder.php
+    - database/seeders/LocationSeeder.php
+    - database/seeders/CompanySeeder.php
+    - database/seeders/StorySeeder.php
+    - database/seeders/SeoSeeder.php
+    - database/seeders/SectionSeeder.php
+    - database/seeders/ServiceSeeder.php
+    - database/seeders/IngredientCategorySeeder.php
+    - database/seeders/IngredientSeeder.php
+    - database/seeders/ProductCategorySeeder.php
+    - database/seeders/ProductOptionSeeder.php
+    - database/seeders/ProductSeeder.php
+    - database/seeders/FavoriteSeeder.php
+    - database/seeders/ReviewSeeder.php
+    - database/seeders/OrderSeeder.php
+    - database/seeders/PaymentHistorySeeder.php
+    - database/seeders/MoneyTransferSeeder.php
+    - tests/Feature/Http/Controllers/UserControllerTest.php
+    - tests/Feature/Http/Controllers/RoleControllerTest.php
+    - tests/Feature/Http/Controllers/SmsQueueControllerTest.php
+    - tests/Feature/Http/Controllers/LocationControllerTest.php
+    - tests/Feature/Http/Controllers/CompanyControllerTest.php
+    - tests/Feature/Http/Controllers/StoryControllerTest.php
+    - tests/Feature/Http/Controllers/SeoControllerTest.php
+    - tests/Feature/Http/Controllers/SectionControllerTest.php
+    - tests/Feature/Http/Controllers/ServiceControllerTest.php
+    - tests/Feature/Http/Controllers/IngredientCategoryControllerTest.php
+    - tests/Feature/Http/Controllers/IngredientControllerTest.php
+    - tests/Feature/Http/Controllers/ProductCategoryControllerTest.php
+    - tests/Feature/Http/Controllers/ProductOptionControllerTest.php
+    - tests/Feature/Http/Controllers/ProductControllerTest.php
+    - tests/Feature/Http/Controllers/FavoriteControllerTest.php
+    - tests/Feature/Http/Controllers/ReviewControllerTest.php
+    - tests/Feature/Http/Controllers/OrderControllerTest.php
+    - tests/Feature/Http/Controllers/PaymentHistoryControllerTest.php
+    - tests/Feature/Http/Controllers/MoneyTransferControllerTest.php
+    - app/Http/Requests/UserStoreRequest.php
+    - app/Http/Requests/UserUpdateRequest.php
+    - app/Http/Requests/RoleStoreRequest.php
+    - app/Http/Requests/RoleUpdateRequest.php
+    - app/Http/Requests/SmsQueueStoreRequest.php
+    - app/Http/Requests/SmsQueueUpdateRequest.php
+    - app/Http/Requests/LocationStoreRequest.php
+    - app/Http/Requests/LocationUpdateRequest.php
+    - app/Http/Requests/CompanyStoreRequest.php
+    - app/Http/Requests/CompanyUpdateRequest.php
+    - app/Http/Requests/StoryStoreRequest.php
+    - app/Http/Requests/StoryUpdateRequest.php
+    - app/Http/Requests/SeoStoreRequest.php
+    - app/Http/Requests/SeoUpdateRequest.php
+    - app/Http/Requests/SectionStoreRequest.php
+    - app/Http/Requests/SectionUpdateRequest.php
+    - app/Http/Requests/ServiceStoreRequest.php
+    - app/Http/Requests/ServiceUpdateRequest.php
+    - app/Http/Requests/IngredientCategoryStoreRequest.php
+    - app/Http/Requests/IngredientCategoryUpdateRequest.php
+    - app/Http/Requests/IngredientStoreRequest.php
+    - app/Http/Requests/IngredientUpdateRequest.php
+    - app/Http/Requests/ProductCategoryStoreRequest.php
+    - app/Http/Requests/ProductCategoryUpdateRequest.php
+    - app/Http/Requests/ProductOptionStoreRequest.php
+    - app/Http/Requests/ProductOptionUpdateRequest.php
+    - app/Http/Requests/ProductStoreRequest.php
+    - app/Http/Requests/ProductUpdateRequest.php
+    - app/Http/Requests/FavoriteStoreRequest.php
+    - app/Http/Requests/FavoriteUpdateRequest.php
+    - app/Http/Requests/ReviewStoreRequest.php
+    - app/Http/Requests/ReviewUpdateRequest.php
+    - app/Http/Requests/OrderStoreRequest.php
+    - app/Http/Requests/OrderUpdateRequest.php
+    - app/Http/Requests/PaymentHistoryStoreRequest.php
+    - app/Http/Requests/PaymentHistoryUpdateRequest.php
+    - app/Http/Requests/MoneyTransferStoreRequest.php
+    - app/Http/Requests/MoneyTransferUpdateRequest.php
+    - app/Http/Resources/UserCollection.php
+    - app/Http/Resources/UserResource.php
+    - app/Http/Resources/RoleCollection.php
+    - app/Http/Resources/RoleResource.php
+    - app/Http/Resources/SmsQueueCollection.php
+    - app/Http/Resources/SmsQueueResource.php
+    - app/Http/Resources/LocationCollection.php
+    - app/Http/Resources/LocationResource.php
+    - app/Http/Resources/CompanyCollection.php
+    - app/Http/Resources/CompanyResource.php
+    - app/Http/Resources/StoryCollection.php
+    - app/Http/Resources/StoryResource.php
+    - app/Http/Resources/SeoCollection.php
+    - app/Http/Resources/SeoResource.php
+    - app/Http/Resources/SectionCollection.php
+    - app/Http/Resources/SectionResource.php
+    - app/Http/Resources/ServiceCollection.php
+    - app/Http/Resources/ServiceResource.php
+    - app/Http/Resources/IngredientCategoryCollection.php
+    - app/Http/Resources/IngredientCategoryResource.php
+    - app/Http/Resources/IngredientCollection.php
+    - app/Http/Resources/IngredientResource.php
+    - app/Http/Resources/ProductCategoryCollection.php
+    - app/Http/Resources/ProductCategoryResource.php
+    - app/Http/Resources/ProductOptionCollection.php
+    - app/Http/Resources/ProductOptionResource.php
+    - app/Http/Resources/ProductCollection.php
+    - app/Http/Resources/ProductResource.php
+    - app/Http/Resources/FavoriteCollection.php
+    - app/Http/Resources/FavoriteResource.php
+    - app/Http/Resources/ReviewCollection.php
+    - app/Http/Resources/ReviewResource.php
+    - app/Http/Resources/OrderCollection.php
+    - app/Http/Resources/OrderResource.php
+    - app/Http/Resources/PaymentHistoryCollection.php
+    - app/Http/Resources/PaymentHistoryResource.php
+    - app/Http/Resources/MoneyTransferCollection.php
+    - app/Http/Resources/MoneyTransferResource.php
+updated:
+    - routes/api.php
+models:
+    User: { full_name: 'string:255 nullable', password: 'string:255 nullable', email: 'unique string:255 nullable', phone: 'unique string:255 nullable', telegram_chat_id: 'string:255 nullable', birthday: 'string:255 nullable', auth_code: 'string:255 nullable', role_id: 'id foreign:roles', email_verified_at: 'string:255 nullable', phone_verified_at: 'string:255 nullable', blocked_at: 'string:255 nullable', relationships: { belongsTo: Role, hasMany: 'Order, Favorite, Review, Location' } }
+    Role: { title: 'string:255 nullable', slug: 'unique string:255', relationships: { belongsTo: User } }
+    SmsQueue: { phone: 'string:255', message: 'string:255', status: 'integer default:0' }
+    Location: { region: "string:255 comment:'Регион'", city: "string:255 comment:'Город'", district: "string:255 nullable comment:'Район'", address: "string:255 comment:'Адрес'", landmark: "string:255 nullable comment:'Ориентир'", latitude: "string:50 nullable comment:'Широта'", longitude: "string:50 nullable comment:'Долгота'", object_type: "integer default:0 comment:'компания \\ пользователь'", object_id: 'id foreign:companies', deleted_at: 'nullable timestamp', relationships: { belongsTo: 'Company, User' } }
+    Company: { title: 'string:400', domain: 'string:255 unique', logo: 'string:400 nullable', vk_group: "string:255 nullable comment:'групп вк для обновления товаров'", telegram_channel: "string:255 nullable comment:'канал для заказов'", description: 'longtext nullable', contacts: "json nullable comment:'Массив объектов контаков заведения'", socials: "json nullable comment:'Массив объектов соц. сети'", bots: "json nullable comment:'Массив объектов ботов заведения'", banners: "json nullable comment:'Баннеры заведения'", site_url: "string:255 nullable comment:'Сайт заведения'", is_active: 'boolean default:true', payment_card: "string:255 nullable comment:'Карта владельца компании для автоматизации переводов'", work_time: "json nullable comment:'Время работы заведения'", amo_link: "string:255 nullable comment:'ссылка подключения к АМО CRM'", amo_login: "string:255 nullable comment:'логин от АМО CRM'", amo_password: "string:255 nullable comment:'пароль от АМО CRM'", deleted_at: 'nullable timestamp', relationships: { hasMany: 'Product, ProductCategory', belongsToMany: 'Section, Seo, Service, Story, Order' } }
+    Story: { image: 'string:255 nullable', title: 'string:255 nullable', subtitle: 'string:255 nullable', company_id: 'id foreign:companies', author_title: 'string:255 nullable', lifetime: 'integer default:0', publish_at: 'nullable timestamp', deleted_at: 'nullable timestamp', relationships: { belongsTo: Company } }
+    Seo: { company_id: 'id foreign:companies', key: 'string:255 nullable', text: 'longtext nullable', relationships: { belongsTo: Company } }
+    Section: { title: 'string:255 nullable', description: 'longtext nullable', image: 'string:255 nullable', is_active: 'boolean default:true', relationships: { belongsToMany: Company } }
+    Service: { title: 'string:255 nullable', icon: 'string:255 nullable', description: 'longtext nullable', relationships: { belongsToMany: Company } }
+    IngredientCategory: { title: 'string:255 nullable', image: 'string:255 nullable', relationships: { hasMany: Ingredient } }
+    Ingredient: { title: 'string:255 nullable', description: 'longtext nullable', image: 'string:255 nullable', weight: 'string:255 nullable', price: 'string:255 nullable', ingredient_category_id: 'id foreign:ingredient_categories', product_id: 'id foreign:products', is_checked: 'boolean default:false', is_disabled: 'boolean default:false', relationships: { belongsTo: 'Product, IngredientCategory' } }
+    ProductCategory: { title: 'string:255', company_id: 'id foreign:companies', relationships: { belongsTo: Company, belongsToMany: Product } }
+    ProductOption: { key: 'string:255 nullable', title: 'string:255 nullable', value: 'string:255 nullable', section: 'string:255 nullable', product_id: 'id foreign:products', relationships: { belongsTo: Product } }
+    Product: { title: 'string:255 nullable', description: 'longtext nullable', images: 'json nullable', type: 'integer default:0', status: 'integer default:0', price: 'double default:0', discount_price: 'double default:0', in_stop_list: 'boolean default:false', company_id: 'id foreign:companies', relationships: { belongsTo: Company, belongsToMany: ProductCategory } }
+    Favorite: { product_id: 'id foreign:products', user_id: 'id foreign:users', relationships: { belongsTo: 'Product, User' } }
+    Review: { text: 'longtext nullable', images: 'json nullable', rating: 'integer default:0', type: 'integer default:0', user_id: 'id foreign:users', object_id: 'id foreign:products', deleted_at: 'nullable timestamp', relationships: { belongsTo: 'Product, Company, User' } }
+    Order: { company_id: 'id foreign:companies', user_id: 'id foreign:users', delivery_service_info: "json nullable comment:'Информация о сервисе доставки'", deliveryman_info: "json nullable comment:'Берется из внешнего доверенного сервиса'", product_details: "json nullable comment:'Дамп заказанных продуктов'", product_count: 'integer default:0', summary_price: 'double default:0', delivery_price: 'double default:0', delivery_range: 'double default:0', deliveryman_latitude: 'double default:0', deliveryman_longitude: 'double default:0', delivery_note: 'longtext nullable', receiver_name: 'string:255 nullable', receiver_phone: 'string:255 nullable', receiver_location_id: 'id foreign:locations', status: 'integer default:0', order_type: 'integer default:0', payed_at: 'timestamp nullable', relationships: { belongsTo: 'User, Location, Company' } }
+    PaymentHistory: { amount: 'double default:0', user_id: 'id foreign:users', order_id: 'id foreign:orders' }
+    MoneyTransfer: { amount: 'double default:0', card: 'string:255', description: 'string:255', status: 'integer default:0' }
